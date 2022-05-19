@@ -1,0 +1,146 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: 0;
+   
+}
+.body{
+    position: relative;
+}
+.container{
+    margin-top: 10px;
+}
+.nav-item{
+    margin: 5px;
+    padding:5px;
+    margin-left: 30px;
+    justify-content: center;
+    text-align: center;
+    display: inline-flex;
+    color: white;
+
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-family: 'Marck Script', cursive;
+    background-color: rgb(0, 187, 255);
+   
+   
+
+}
+.navbar-brand:hover{
+    color: white;
+    transition: 0.5 ease;
+    
+
+}
+.nav-link{
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+  text-overflow: uppercase;
+
+}  
+.nav-link:hover{
+    color: white;
+} 
+.search{
+    height: 40px;
+    width: 80px;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid rgb(247, 26, 92);
+    margin-right: 35px;
+}
+.btn0{
+    
+    height: 40px;
+    width: 40px;
+    outline: none;
+    border: none;
+    background: rgb(248, 26, 92);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+.main {
+    background-image: url(./images/cover.jpeg);
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 50;
+    height: 100vh;
+    
+
+
+}
+
+.main h3{
+    color: rgb(11, 12, 12);
+    font-family: 'Marck Script', cursive;
+}
+.btn1 {
+    height: 45px;
+    font-weight: 700;
+    width: 35px;
+    border: none;
+    outline: none;
+    background-color: rgb(69, 69, 181);
+    color: blue;
+    border-radius: 60px;
+
+
+}
+btn1:hover{
+    background-color: blanchedalmond;
+    transition: 0.5s;
+}
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+
+}
+      
+.h1{
+    font-size: 700;
+}
+.news{
+    background-color: black;
+    color: white;
+
+}
+
+
+.btn2{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600px;
+}
+
+.news input{
+     height: 45px;
+     width: 55%;
+     border: 2px solid white;
+     outline: none;
+     background: black;
+     color: white;
+     margin-top: 20px;
+     font-weight: 600;
+
+}
+.news::placeholder{
+      color: white;
+}
+.news p{
+    margin: 0;
+}
+.fab{
+    font-size: 2.5rem;
+    cursor: pointer;
+}
